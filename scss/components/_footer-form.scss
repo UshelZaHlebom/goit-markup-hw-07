@@ -13,25 +13,28 @@
     padding: 15px 16px;
     background-color: var(--background-filler-color);
     color: var(--hub-color);
-}
 
-.footer-mail-input::placeholder{
+    &::placeholder{
     color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-mail-input:focus{
+    }
+    
+    &:focus{
     outline:none;
     border-color: var(--major-color);
+    }
+    
+    &:checked::placeholder{
+    color: #fff
+    }
 }
 
-.footer-mail-input:checked::placeholder{
-    color: #fff
-}
+
 
 .footer-subscribe-section{
     display: flex;
     flex-wrap: nowrap;
 }
+
 .footer-form-button{
     display:flex;
     align-items: center;

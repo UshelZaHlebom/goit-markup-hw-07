@@ -11,20 +11,23 @@
     justify-content: center;
     align-items: center;
     padding: 16px 32px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+    background-color: var(--background-color);
+    }
+
+    &:hover .clients-icon,
+    &:focus .clients-icon{
+    fill: var(--major-color);
+    }
 }
 
-.clients-link:hover,
-.clients-link:focus{
-    background-color: var(--background-color);
-}
+
 
 .clients-icon{
     fill: var(--icon-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon{
-    fill: var(--major-color);
-}
