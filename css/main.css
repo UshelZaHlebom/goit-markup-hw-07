@@ -933,7 +933,7 @@ section {
   margin-right: 8px;
 }
 
-.stealth {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
