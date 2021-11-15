@@ -414,27 +414,6 @@
   transform: translate(0);
 }
 
-.modal-btn {
-  border: 1px solid #999999;
-  background-color: transparent;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-btn:hover, .modal-btn:focus {
-  fill: var(--major-color);
-  border-color: var(--major-color);
-  cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .pros-list {
   display: flex;
   flex-wrap: wrap;
@@ -765,6 +744,27 @@ section {
 
 .modal-button:hover, .modal-button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn {
+  border: 1px solid #999999;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-btn:hover, .modal-btn:focus {
+  fill: var(--major-color);
+  border-color: var(--major-color);
+  cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
