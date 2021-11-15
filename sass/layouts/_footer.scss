@@ -45,9 +45,14 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.contacts-item:not(:last-child){
-    margin-bottom: 9px;
+.contacts-item{
+    color: inherit;
+    
+    &:not(:last-child){
+        margin-bottom: 9px;
+    }
 }
+
 
 .footer-media-text{
     font-size: 14px;

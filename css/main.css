@@ -92,6 +92,10 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.contacts-item {
+  color: inherit;
+}
+
 .contacts-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -292,48 +296,6 @@
   width: 696px;
 }
 
-.hero-btn {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
-  color: var(--hub-color);
-  background-color: var(--major-color);
-  cursor: pointer;
-  padding: 10px 32px 10px 32px;
-  border-radius: 4px;
-  border-color: transparent;
-}
-
-.hero-btn:hover, .hero-btn:focus {
-  background-color: var(--button-hover-color);
-}
-
-.filter-btn {
-  font-family: inherit;
-  text-align: center;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  background-color: #F5F4FA;
-  border-radius: 4px;
-  border-color: transparent;
-  cursor: pointer;
-  padding: 6px 22px 6px 22px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.filter-btn:hover, .filter-btn:focus {
-  background-color: var(--major-color);
-  color: var(--hub-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.filter-btn-list {
-  margin-bottom: 50px;
-}
-
 .project-list-header {
   font-weight: 700;
   font-size: 18px;
@@ -352,10 +314,6 @@
 .filter-btn-list {
   display: flex;
   justify-content: center;
-}
-
-.button-customization:not(:last-child) {
-  margin-right: 8px;
 }
 
 .project-list {
@@ -927,6 +885,52 @@ section {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--hub-color);
+  background-color: var(--major-color);
+  cursor: pointer;
+  padding: 10px 32px 10px 32px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+  background-color: var(--button-hover-color);
+}
+
+.filter-btn {
+  font-family: inherit;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  padding: 6px 22px 6px 22px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-btn:hover, .filter-btn:focus {
+  background-color: var(--major-color);
+  color: var(--hub-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.filter-btn-list {
+  margin-bottom: 50px;
+}
+
+.button-customization:not(:last-child) {
+  margin-right: 8px;
 }
 
 .stealth {
