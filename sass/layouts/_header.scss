@@ -32,7 +32,7 @@
     align-items: center;
 }
 
-.header__list-item{
+.header__item{
     height:100%;
     display:flex;
     align-items: center;
@@ -42,7 +42,7 @@
     }
 }
 
-.header__nav-link {
+.header__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -60,7 +60,7 @@
 }
 
 
-.header__nav-contacts{
+.header__contacts{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -92,7 +92,7 @@
     margin-right: 10px;
 }
 
-.header__nav-link.current{
+.header__link.current{
     color:var(--major-color);
     position: relative;
 
