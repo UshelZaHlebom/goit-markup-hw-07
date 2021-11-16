@@ -1,14 +1,14 @@
-.studio-header{
+.header{
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-container{
+.header__container{
     display: flex;
     align-items: center;
     height: 80px;
 }
 
-.studio-logo{
+.header__logo{
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -22,7 +22,7 @@
     color:#000000;
 }
 
-.nav-panel{
+.header__nav{
     display: flex;
     height: 100%;
 }
@@ -42,7 +42,7 @@
     }
 }
 
-.nav-panel-link {
+.header__nav-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -60,7 +60,7 @@
 }
 
 
-.nav-panel-contacts{
+.header__nav-contacts{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -92,7 +92,7 @@
     margin-right: 10px;
 }
 
-.nav-panel-link.current{
+.header__nav-link.current{
     color:var(--major-color);
     position: relative;
 
